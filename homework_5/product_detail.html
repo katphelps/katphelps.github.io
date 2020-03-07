@@ -1,5 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="en"></html>
+
+<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+<style>
+#body {
+    font-family: 'Amaranth';font-size: 22px;
+}
+</style>
+
+
 <head>
     <!-- The HEAD section has (mostly) items that are not directly seen by the user -->
 	<meta charset="utf-8" />  <!-- Specifies character encoding for HTML doc -->
@@ -12,52 +22,61 @@
 <html>
     <body>
         <!-- This is where the header template begins -->
-        <div class="promotional-header">
+        <div id="promotional-header">
             <h3>50% OFF ALL COUCH PILLOWS UNTIL FEBURARY 27TH...</h1>
         </div>
-        <div class="fluffstuff-header">
+        <div id="login-search-cart">
+            <li><strong>LOGIN</strong></li>
+            <li><strong>SEARCH</strong></li>
+            <li><a style="text-decoration:none" href="cart.html"><strong>CART</strong></a></li> 
+        </div>
+        <div id="fluffstuff-header">
             <p><strong>FLUFF STUFF</strong></p>
         </div>
         <nav>
             <ul>
-                <li><a style="text-decoration:none" href="product_browsing.html"><strong>Products</strong></a></li>
-                <li><a style="text-decoration:none" href="index.html"><strong>Home</strong></a></li>
-                <li><a style="text-decoration:none" href="about_us.html"><strong>About Us</strong></a></li>
+                <li><a style="text-decoration:none" href="product_browsing.html"><strong>PRODUCTS</strong></a></li>
+                <li><a style="text-decoration:none" href="index.html"><strong>HOME</strong></a></li>
+                <li><a style="text-decoration:none" href="about_us.html"><strong>ABOUT US</strong></a></li>
             </ul>
         </nav>
         </br>
         </br>   
         <!-- This is where the header template ends -->
-        <div id = "container"></div>
-            <img src="images/pillow1.jpg" alt="pillow1" class="pillow1">
+        <div id="container"></div>
+            <div id="pillow">
+                <img src="images/pillow1.jpg" width="450" height="auto" alt="pillow1" id="pillow1">
+            </div>
             <br>
-            <select class="select-css">
+            <div id="pillow-sidebar">
+                <select id="select-css">
                     <option value="Cream">Cream</option>
                     <option value="Pink">Pink</option>
                     <option value="Red">Red</option>
                     <option value="Blue">Blue</option>
-            </select>
-            <br>
-            <select class="select-css">
+                </select>
+                <br>
+                <select id="select-css">
                     <option value="Wool">Wool</option>
                     <option value="Icelandic Sheep Wool">Icelandic Sheep Wool</option>
                     <option value="Red">Silk</option>
                     <option value="Softest Yarn">Softest Yarn</option>
-            </select>
-            <br>
-            <select class="select-css">
+                </select>
+                <br>
+                <select id="select-css">
                     <option value="40x40">40x40</option>
                     <option value="60x60">60x60</option>
                     <option value="80x80">80x80</option>
-            </select>
+                </select>
+            </div>
         </div>
         </br>
         <!-- This is where the footer template begins -->
         <div id = "contact-us">
             <h3>Contact Us</h3>
-            <img src="images/fb.png" alt="facebook" class="contact-us-image">
-            <img src="images/instagram.png" alt="instgram" class="contact-us-image">
-            <img src="images/twitter.png" alt="twitter" class="contact-us-image">
+            <img src="images/fb.png" alt="facebook" id="contact-us-image">
+            <img src="images/instagram.png" alt="instgram" id="contact-us-image">
+            <img src="images/twitter.png" alt="twitter" id="contact-us-image">
         </div>
         <!-- This is where the footer template ends -->
     </body>
