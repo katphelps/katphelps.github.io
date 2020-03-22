@@ -1,0 +1,179 @@
+/*top left bottom right */
+
+/* For every page*/
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    margin: 0px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#container{
+  width: 40%;
+}
+
+nav{
+    line-height: 20px;
+    padding: 1px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+    border: 1px 0px 1px 0px;
+}
+
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li{
+  display: inline-block;
+  width: 20%;
+}
+
+nav a:visited, a:link{
+  color:#ffffff;
+}
+
+nav a:active{
+  color:#ffffff;
+}
+
+#home-page{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -40px;
+  }
+
+#fluffstuff-header{
+    height: 75px;
+    line-height: 105px;
+
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 60px;
+
+    background: #d6dce8;
+    color: rgb(0, 0, 0);
+
+    margin: -90px 0px -20px 0px;
+    padding: 0px 0px 30px 0px;
+  }
+
+#login-search-cart{
+  line-height: 20px;
+  font-size: 16px;
+
+  text-align: right;
+  background: #d6dce8;
+  color:  rgb(0, 0, 0);
+
+  margin: 60px 0px 0px 0px;
+  padding: -5px 20px 0px 0px;
+}
+
+#login-search-cart ul{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login-search-cart li{
+display: inline-block;
+width: 10%;
+}
+
+#login-search-cart a:visited, a:link{
+  color:rgb(0, 0, 0);
+}
+
+#promotional-header {
+    text-align: left;
+    color:#09466B;
+    font-size: 14px;
+    margin: -10px 0px -40px 10px;
+  }
+
+#contact-us {
+    text-align: center;
+    color:#09466B;
+    font-size: 14px;
+}
+
+#contact-us-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2%;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: -10px 2px 0px 2px;
+}
+
+/* For main page*/
+
+#descriptive-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-size: 100%;
+    font-family: Georgia, serif;
+    color: #0e2105;
+}
+
+/* For products page*/
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 300px);
+  grid-gap: 10px;
+  margin-left: 350px;
+  margin-right: 125px;
+  padding: 15px 15px 15px 15px;
+  background: #d6dce8;
+}
+
+#grid-image {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#filter-sidebar{
+  /*height: 100%;  Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  background-color: #ffffff; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin: -40px 0px 0px 50px;
+  padding: 10px 10px 10px 10px;
+}
+
+#pillow{
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  background-color: #ffffff; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin: 0px 0px 0px 150px;
+  padding: 10px 10px 10px 10px;
+}
+
+#pillow-sidebar{
+  /*height: 100%;  Full-height: remove this if you want "auto" height */
+  /*width: 250px; /* Set the width of the sidebar */
+  z-index: 1; /* Stay on top */
+  position: fixed;
+  /*background-color: #ffffff; /* Black */
+  /*overflow-x: hidden; /* Disable horizontal scroll */
+  margin: 0px 0px 0px 750px; 
+  padding: 10px 10px 200px 100px;
+}
+
