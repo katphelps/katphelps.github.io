@@ -61,10 +61,14 @@ h3 {
     border-radius: 0;
 }
 
-#duo-image.img-fluid{
+#duo-image{
     max-width: 75%;
     height: auto;
     box-shadow: 3px 3px 3px #cecece;
+}
+
+.carousel-indicators{
+    margin-left: -12.5%;
 }
 
 .tres-card{
@@ -75,6 +79,18 @@ h3 {
     border:1px solid #cecece;
     box-shadow: 1px 1px 1px gainsboro;
     border-radius: 5px;
+}
+
+#a.tres-card{
+    background-color: #EBF3FF;
+}
+
+#b.tres-card{
+    background-color: #E8FFE9;
+}
+
+#c.tres-card{
+    background-color: #FFFDE8;
 }
 
 .tres-title{
