@@ -71,9 +71,17 @@ h3 {
     margin-left: -12.5%;
 }
 
+#a.row{
+    display: flex-start;
+}
+
+#b.row{
+    display: flex-end;
+}
+
 .tres-card{
     padding: 5%;
-    margin: 5%;
+    margin: 3%;
     font-size: 1em;
     letter-spacing: 0.05em;
     border:1px solid #cecece;
@@ -104,7 +112,7 @@ h3 {
 }
 
 .quatro-card{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-right: 2%;
     padding-left: 2%;
     font-size: 1.25em;
@@ -112,4 +120,26 @@ h3 {
     border:1px solid #cecece;
     box-shadow: 1px 1px 1px gainsboro;
     border-radius: 0;
+}
+
+#seis.container-fluid{
+    background-color: #fcfbf7;
+    color: #000000;
+    padding-top: 7.5%;
+    height: 200%;
+    overflow-y: hidden;
+}
+
+.seis-images{
+    width: 75%;
+    height: auto;
+}
+
+
+#a.row{
+    display: flex-start;
+}
+
+#b.row{
+    display: flex-end;
 }
